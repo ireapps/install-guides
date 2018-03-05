@@ -13,7 +13,8 @@ Also, we didn't include instructions for setting up a virtualbox to run the prog
 - [Microsoft Office](https://www.office.com/): Word, Excel, Powerpoint, Access
 - [VLC Media Player](http://www.videolan.org/vlc/index.html)
 - [Python 3.6.4](https://www.python.org/downloads/) (Make sure that the "Install launcher for all users" and the "Add Python 3.6 to PATH" checkboxes on the install screen are checked)
-- Python packages: `beautifulsoup4 ipython requests csvkit csvdedupe probablepeople usaddress sklearn pandas matplotlib lxml jupyter xlrd html5lib csvmatch matplotlib seaborn visidata pyshp coverage freezegun flake8 numpy nltk spacy tabula-py pypdfocr`
+- Python packages:
+  ```beautifulsoup4 ipython requests csvkit csvdedupe probablepeople usaddress sklearn pandas matplotlib lxml jupyter xlrd html5lib csvmatch matplotlib seaborn visidata pyshp coverage freezegun flake8 numpy nltk spacy tabula-py pypdfocr```
 - [Node.js 8.9.4](https://nodejs.org/en/download/)
 - Install some node packages globally (again, you probably won't need all of these installed for every project you do in life, so def take advantage of node's package management workflow to handle project dependencies): `npm install -g gulp gulp-cli grunt grunt-cli http-server hot-server yo generator-yeogurt`
 - [Flash](https://get.adobe.com/flashplayer/)
