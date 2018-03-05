@@ -18,14 +18,20 @@ Also, we didn't include instructions for setting up a virtualbox to run the prog
   ```beautifulsoup4 ipython requests csvkit csvdedupe probablepeople usaddress sklearn pandas matplotlib lxml jupyter xlrd html5lib csvmatch matplotlib seaborn visidata pyshp coverage freezegun flake8 numpy nltk spacy tabula-py pypdfocr```
 
 - [Node.js 8.9.4](https://nodejs.org/en/download/)
-- Install some node packages globally (again, you probably won't need all of these installed for every project you do in life, so def take advantage of node's package management workflow to handle project dependencies): `npm install -g gulp gulp-cli grunt grunt-cli http-server hot-server yo generator-yeogurt`
+- Install some node packages globally (again, you probably won't need all of these installed for every project you do in life, so def take advantage of node's package management workflow to handle project dependencies):
+
+  ```npm install -g gulp gulp-cli grunt grunt-cli http-server hot-server yo generator-yeogurt```
+
 - [Flash](https://get.adobe.com/flashplayer/)
 - [Java](https://java.com/en/download/)
 - [Google Chrome](https://www.google.com/chrome/browser/desktop/)
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 - [R](https://www.r-project.org/)
 - [RStudio](https://www.rstudio.com/)
-- Install R libraries: `"tidyverse", "fivethirtyeight", "nycflights", "babynames", "XML", "rtweet", "splines", "gee", "lme4", "nlme", "survival", "Ecdat", "DT", "here", "evaluate", "digest", "highr", "Rcpp", "htmltools", "knitr", "rprojroot", "rmarkdown", "leaflet", "shinycssloaders", "rgdal", "tigris", "packrat"`
+- Install R libraries:
+
+  ```"tidyverse", "fivethirtyeight", "nycflights", "babynames", "XML", "rtweet", "splines", "gee", "lme4", "nlme", "survival", "Ecdat", "DT", "here", "evaluate", "digest", "highr", "Rcpp", "htmltools", "knitr", "rprojroot", "rmarkdown", "leaflet", "shinycssloaders", "rgdal", "tigris", "packrat"```
+
 - [MiKTeX](https://miktex.org/) ([follow these instructions](https://miktex.org/howto/install-miktex))
 - [Neo4j](https://neo4j.com/)
 - [Notepad++](https://notepad-plus-plus.org/)
@@ -44,7 +50,7 @@ Also, we didn't include instructions for setting up a virtualbox to run the prog
 - [Sublime Text](https://sublimetext.com/)
 - [atom](https://atom.io/)
 - [GIMP](https://gimp.org/)
-- ArcGIS for Office(https://doc.arcgis.com/en/maps-for-office/install-and-configure/about-esri-maps-for-office.htm)
+- [ArcGIS for Office](https://doc.arcgis.com/en/maps-for-office/install-and-configure/about-esri-maps-for-office.htm)
 - [pdftk](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/)
 - [cometdocs desktop app](https://www.cometdocs.com/)
 - [tesseract](https://github.com/UB-Mannheim/tesseract/wiki)
@@ -59,7 +65,7 @@ Also, we didn't include instructions for setting up a virtualbox to run the prog
         - Select Path and click Edit
         - Add the path to the `bin64` folder you extracted, ensuring that you separate the path from the rest of the values in Path with a semicolon, then press OK
 - [WAMP](http://www.wampserver.com/en/)
-- Postgres and PgAdmin - check out [this @charlesminshew installation guide](https://www.dropbox.com/s/bdvs6gglfu6hopv/PostgresWindowsInstallation.pdf?dl=0)
+- Postgres and PgAdmin - check out this @charlesminshew [installation guide](https://www.dropbox.com/s/bdvs6gglfu6hopv/PostgresWindowsInstallation.pdf?dl=0)
 - [MySQL Web Community Installer](https://dev.mysql.com/downloads/installer/)
     - Choose the "Developer Default" install option
     - It will begin to check for requirements. The requirement for MySQL For Excel is the Microsoft Visual Studio Tools for Office Runtime 2010 setup.
@@ -83,16 +89,31 @@ Also, we didn't include instructions for setting up a virtualbox to run the prog
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 - [VLC Media Player](http://www.videolan.org/vlc/index.html)
 - [Filezilla](https://filezilla-project.org/)
-- [Homebrew](https://brew.sh/) -- in your terminal, run: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+- [Homebrew](https://brew.sh/) -- in your terminal, run:
+
+  ```/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
+
 - In your terminal, run: `xcode-select --install`
-- Brew install python3, git, node, tesseract, xpdf, imagemagick, ghostscript: `brew install python3 git node tesseract xpdf imagemagick ghostscript`
-- Python packages: `beautifulsoup4 ipython requests csvkit csvdedupe probablepeople usaddress sklearn pandas matplotlib lxml jupyter xlrd html5lib csvmatch matplotlib seaborn visidata pyshp coverage freezegun flake8 numpy nltk spacy tabula-py pypdfocr`
-- Install some node packages globally (again, you probably won't need all of these installed for every project you do in life, so def take advantage of node's package management workflow to handle project dependencies): `npm install -g gulp gulp-cli grunt grunt-cli http-server hot-server yo generator-yeogurt`
+- Brew install python3, git, node, tesseract, xpdf, imagemagick, ghostscript:
+
+  ```brew install python3 git node tesseract xpdf imagemagick ghostscript```
+
+- Python packages:
+
+  ```beautifulsoup4 ipython requests csvkit csvdedupe probablepeople usaddress sklearn pandas matplotlib lxml jupyter xlrd html5lib csvmatch matplotlib seaborn visidata pyshp coverage freezegun flake8 numpy nltk spacy tabula-py pypdfocr```
+
+- Install some node packages globally (again, you probably won't need all of these installed for every project you do in life, so def take advantage of node's package management workflow to handle project dependencies):
+
+  ```npm install -g gulp gulp-cli grunt grunt-cli http-server hot-server yo generator-yeogurt```
+
 - [MAMP](https://www.mamp.info/en/)
 - [Tabula](http://tabula.technology/)
 - [R](https://www.r-project.org/)
 - [RStudio](https://www.rstudio.com/)
-- Install R libraries: `"tidyverse", "fivethirtyeight", "nycflights", "babynames", "XML", "rtweet", "splines", "gee", "lme4", "nlme", "survival", "Ecdat", "DT", "here", "evaluate", "digest", "highr", "Rcpp", "htmltools", "knitr", "rprojroot", "rmarkdown", "leaflet", "shinycssloaders", "rgdal", "tigris", "packrat"`
+- Install R libraries:
+
+  ```"tidyverse", "fivethirtyeight", "nycflights", "babynames", "XML", "rtweet", "splines", "gee", "lme4", "nlme", "survival", "Ecdat", "DT", "here", "evaluate", "digest", "highr", "Rcpp", "htmltools", "knitr", "rprojroot", "rmarkdown", "leaflet", "shinycssloaders", "rgdal", "tigris", "packrat"```
+
 - [Postgres app](http://postgresapp.com/)
 - [Postman](https://www.getpostman.com/)
 - [Neo4j](https://neo4j.com/)
