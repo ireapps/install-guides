@@ -65,7 +65,7 @@ Also, we didn't include instructions for setting up a virtualbox to run the prog
         - Select Path and click Edit
         - Add the path to the `bin64` folder you extracted, ensuring that you separate the path from the rest of the values in Path with a semicolon, then press OK
 - [WAMP](http://www.wampserver.com/en/)
-- Postgres and PgAdmin - check out this @charlesminshew [installation guide](https://www.dropbox.com/s/bdvs6gglfu6hopv/PostgresWindowsInstallation.pdf?dl=0)
+- Postgres and PgAdmin - check out this [@charlesminshew](https://github.com/charlesminshew) [installation guide](https://www.dropbox.com/s/bdvs6gglfu6hopv/PostgresWindowsInstallation.pdf?dl=0)
 - [MySQL Web Community Installer](https://dev.mysql.com/downloads/installer/)
     - Choose the "Developer Default" install option
     - It will begin to check for requirements. The requirement for MySQL For Excel is the Microsoft Visual Studio Tools for Office Runtime 2010 setup.
