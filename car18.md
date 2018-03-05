@@ -2,6 +2,8 @@
 
 Drop by our [install party](https://www.ire.org/events-and-training/event/3189/3588/) at 10:15 a.m. on Sunday, March 11, in Clark, and we'll help you get your rig set up.
 
+![ow wow](gifs/judgejudy.gif "judge judy can't even with this")
+
 _Meantime_, Here's how IRE set up the PC and Mac laptops for #NICAR18. (Keep in mind that you may not need _all_ of these tools at once.)
 
 A note on Python packages: To simplify things, we didn't use virtual environments to isolate dependencies for each Python session. You should do this for your projects, though! A variety of tools can help you manage project dependencies in a virtual environment, including [pyenv](https://github.com/pyenv/pyenv), [pipenv](https://pipenv.readthedocs.io/en/latest/) and [virtualenv](https://virtualenv.pypa.io/en/stable/) (plus, optionally, [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/)). (The conference computers have `virtualenv` and `virtualenvwrapper` available, FWIW.)
