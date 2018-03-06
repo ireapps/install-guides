@@ -12,8 +12,13 @@ Also, we didn't include instructions for setting up a virtualbox to run the prog
 
 ## Windows
 
+### Spreadsheets and general office software
 - [Microsoft Office](https://www.office.com/): Word, Excel, Powerpoint, Access
+- [Flash](https://get.adobe.com/flashplayer/)
+- [Java](https://java.com/en/download/)
 - [VLC Media Player](http://www.videolan.org/vlc/index.html)
+
+### Coding and statistics
 - [Python 3.6.4](https://www.python.org/downloads/) (Make sure that the "Install launcher for all users" and the "Add Python 3.6 to PATH" checkboxes on the install screen are checked)
 - Python packages:
 
@@ -23,41 +28,38 @@ Also, we didn't include instructions for setting up a virtualbox to run the prog
 - Install some node packages globally (again, you probably won't need all of these installed for every project you do in life, so def take advantage of node's package management workflow to handle project dependencies):
 
   ```npm install -g gulp gulp-cli grunt grunt-cli http-server hot-server yo generator-yeogurt```
-
-- [Flash](https://get.adobe.com/flashplayer/)
-- [Java](https://java.com/en/download/)
-- [Google Chrome](https://www.google.com/chrome/browser/desktop/)
-- [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 - [R](https://www.r-project.org/)
 - [RStudio](https://www.rstudio.com/)
 - Install R libraries:
 
   ```"tidyverse", "fivethirtyeight", "nycflights", "babynames", "XML", "rtweet", "splines", "gee", "lme4", "nlme", "survival", "Ecdat", "DT", "here", "evaluate", "digest", "highr", "Rcpp", "htmltools", "knitr", "rprojroot", "rmarkdown", "leaflet", "shinycssloaders", "rgdal", "tigris", "packrat"```
-
-- [MiKTeX](https://miktex.org/) ([follow these instructions](https://miktex.org/howto/install-miktex))
-- [Neo4j](https://neo4j.com/)
-- [Notepad++](https://notepad-plus-plus.org/)
-- [QGIS 2.14](http://qgis.org)
-- [git](https://gitforwindows.org/) ([setup guide](https://help.github.com/articles/set-up-git/))
 - [PSPP](https://www.gnu.org/software/pspp/)
-- [DB Browser for SQLite](http://sqlitebrowser.org/)
+
+### Web browsers
+- [Google Chrome](https://www.google.com/chrome/browser/desktop/)
+- [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+
+### Text editors
+- [Notepad++](https://notepad-plus-plus.org/)
+- [Sublime Text](https://sublimetext.com/)
+- [atom](https://atom.io/)
+
+### Data cleaning, extraction, preparation
 - [OpenRefine](http://openrefine.org/)
 - [Tabula](http://tabula.technology/)
-- [Postman](https://www.getpostman.com/)
+- [cometdocs desktop app](https://www.cometdocs.com/)
 - [The Tableau Reshaper Tool for Excel](https://community.tableau.com/servlet/JiveServlet/download/10394-2-178585/tableau_data_tool.zip) (ZIP)
     - Once the file is on your computer, extract the file from the ZIP file and double-click it to install
     - Open Excel, click the File tab, click Options, and then click Add-Ins
     - From the Manage box, select Excel Add-ins, and then click Go
     - In the Add-Ins dialog box, verify the check box next to the Tableau add-in is selected, and click OK
-- [Sublime Text](https://sublimetext.com/)
-- [atom](https://atom.io/)
-- [GIMP](https://gimp.org/)
-- [ArcGIS for Office](https://doc.arcgis.com/en/maps-for-office/install-and-configure/about-esri-maps-for-office.htm)
+
+### Command-line tools
 - [pdftk](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/)
-- [cometdocs desktop app](https://www.cometdocs.com/)
 - [tesseract](https://github.com/UB-Mannheim/tesseract/wiki)
 - [ghostscript](https://www.ghostscript.com/)
 - [imagemagick](http://imagemagick.org/script/index.php)
+- [git](https://gitforwindows.org/) ([setup guide](https://help.github.com/articles/set-up-git/))
 - [xpdf tools](https://xpdfreader-dl.s3.amazonaws.com/XpdfReader-win64-4.00.01.exe) (ZIP)
     - Extract the folder to a directory somewhere
     - Add the path to the `bin64` folder to the Environmental Variable path:
@@ -66,7 +68,15 @@ Also, we didn't include instructions for setting up a virtualbox to run the prog
         - Click Environmental Variables
         - Select Path and click Edit
         - Add the path to the `bin64` folder you extracted, ensuring that you separate the path from the rest of the values in Path with a semicolon, then press OK
+
+### Mapping
+- [QGIS 2.14](http://qgis.org)
+- [ArcGIS for Office](https://doc.arcgis.com/en/maps-for-office/install-and-configure/about-esri-maps-for-office.htm)
+
+### SQL and graph databases
+- [DB Browser for SQLite](http://sqlitebrowser.org/)
 - [WAMP](http://www.wampserver.com/en/)
+- [Neo4j](https://neo4j.com/)
 - Postgres and PgAdmin - check out this [@charlesminshew](https://github.com/charlesminshew) [installation guide](https://www.dropbox.com/s/bdvs6gglfu6hopv/PostgresWindowsInstallation.pdf?dl=0)
 - [MySQL Web Community Installer](https://dev.mysql.com/downloads/installer/)
     - Choose the "Developer Default" install option
@@ -82,15 +92,26 @@ Also, we didn't include instructions for setting up a virtualbox to run the prog
     - You will then see a screen to Connect to Server. Make sure MySQL Server 5.7.21 has a checkbox marked next to it. Supply the credentials below that. Username is root and password is whatever password you set earlier. Press Check to see if the connection was successful. 
     - Click Next. On the following screen, press Execute. You'll see a screen indicating the Installation is complete. Click Finish.
 
+### Misc.
+- [MiKTeX](https://miktex.org/) ([follow these instructions](https://miktex.org/howto/install-miktex))
+- [Postman](https://www.getpostman.com/)
+- [GIMP](https://gimp.org/)
+
+
 ## Mac
 
+### Spreadsheets and general office software
 - [Microsoft Office](https://www.office.com/): Word, Excel, Powerpoint
 - [Flash](https://get.adobe.com/flashplayer/)
 - [Java](https://java.com/en/download/)
-- [Google Chrome](https://www.google.com/chrome/browser/desktop/)
-- [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 - [VLC Media Player](http://www.videolan.org/vlc/index.html)
 - [Filezilla](https://filezilla-project.org/)
+
+### Web browsers
+- [Google Chrome](https://www.google.com/chrome/browser/desktop/)
+- [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+
+### Coding and statistics
 - [Homebrew](https://brew.sh/) -- in your terminal, run:
 
   ```/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
@@ -107,27 +128,37 @@ Also, we didn't include instructions for setting up a virtualbox to run the prog
 - Install some node packages globally (again, you probably won't need all of these installed for every project you do in life, so def take advantage of node's package management workflow to handle project dependencies):
 
   ```npm install -g gulp gulp-cli grunt grunt-cli http-server hot-server yo generator-yeogurt```
-
-- [MAMP](https://www.mamp.info/en/)
-- [Tabula](http://tabula.technology/)
 - [R](https://www.r-project.org/)
 - [RStudio](https://www.rstudio.com/)
 - Install R libraries:
 
   ```"tidyverse", "fivethirtyeight", "nycflights", "babynames", "XML", "rtweet", "splines", "gee", "lme4", "nlme", "survival", "Ecdat", "DT", "here", "evaluate", "digest", "highr", "Rcpp", "htmltools", "knitr", "rprojroot", "rmarkdown", "leaflet", "shinycssloaders", "rgdal", "tigris", "packrat"```
-
-- [Postgres app](http://postgresapp.com/)
-- [Postman](https://www.getpostman.com/)
-- [Neo4j](https://neo4j.com/)
-- [MacTeX](http://www.tug.org/mactex/)
-- [QGIS 2.14](http://qgis.org)
 - [PSPP](https://www.gnu.org/software/pspp/)
-- [DB Browser for SQLite](http://sqlitebrowser.org/)
+
+### Data cleaning, extraction, preparation
+- [Tabula](http://tabula.technology/)
 - [OpenRefine](http://openrefine.org/)
+
+### Command-line tools
+- [pdftk](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/)
+
+### SQL and graph databases
+- [Postgres app](http://postgresapp.com/)
+- [DB Browser for SQLite](http://sqlitebrowser.org/)
+- [Neo4j](https://neo4j.com/)
+- [MAMP](https://www.mamp.info/en/)
+
+### Mapping
+- [QGIS 2.14](http://qgis.org)
+
+### Text editors
 - [Sublime Text](https://sublimetext.com/)
 - [atom](https://atom.io/)
+
+### Misc.
+- [Postman](https://www.getpostman.com/)
+- [MacTeX](http://www.tug.org/mactex/)
 - [GIMP](https://gimp.org/)
-- [pdftk](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/)
 
 ## More in-depth installation guides
 
