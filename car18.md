@@ -77,7 +77,7 @@ Also, we didn't include instructions for setting up a virtualbox to run the prog
 - [DB Browser for SQLite](http://sqlitebrowser.org/)
 - [WAMP](http://www.wampserver.com/en/)
 - [Neo4j](https://neo4j.com/)
-- Postgres and PgAdmin - check out this [@charlesminshew](https://github.com/charlesminshew) [installation guide](https://www.dropbox.com/s/bdvs6gglfu6hopv/PostgresWindowsInstallation.pdf?dl=0)
+- Postgres and PgAdmin - check out this [@anthonydb](https://github.com/anthonydb) [installation guide](https://www.dropbox.com/s/bdvs6gglfu6hopv/PostgresWindowsInstallation.pdf?dl=0)
 - [MySQL Web Community Installer](https://dev.mysql.com/downloads/installer/)
     - Choose the "Developer Default" install option
     - It will begin to check for requirements. The requirement for MySQL For Excel is the Microsoft Visual Studio Tools for Office Runtime 2010 setup.
